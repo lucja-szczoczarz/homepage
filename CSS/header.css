@@ -1,0 +1,22 @@
+.header__title {
+    color: rgb(244, 241, 241);
+    background-color: rgb(10, 10, 10);
+    border-radius: 5px;
+    border: 2px ridge red;
+    padding: 20px;
+}
+
+.header__button {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header__image {
+    outline: 2px solid black;
+    box-shadow: 5px -5px 40px -7px #301313;
+    margin-top: 30px;
+}
+
+.header__newClass {
+    color: rgb(216, 22, 22);
+}

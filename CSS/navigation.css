@@ -1,0 +1,33 @@
+.navigation {
+    padding-left: 0px;
+}
+
+.navigation__linkList {
+    list-style: none;
+}
+
+.navigation__link {
+    font-size: 20px;
+    color: rgb(216, 22, 22);
+    text-decoration: none;
+    padding: 2px;
+    margin: 5px 10px;
+}
+
+.navigation__link:visited {
+    color: brown;
+}
+
+.navigation__link:focus {
+    outline: 1px solid currentColor;
+}
+
+.navigation__link:hover {
+    color: black;
+    border-bottom: 1px solid currentColor;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: gray;
+}

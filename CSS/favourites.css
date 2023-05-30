@@ -1,0 +1,11 @@
+.favourites {
+    font-style: italic;
+}
+
+.favourites__subHeader {
+    font-weight: bold;
+}
+
+.favourites__container {
+    overflow-x: auto;
+}
