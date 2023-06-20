@@ -1,13 +1,25 @@
-console.log("Hello!")
-console.log("Miłego dnia;)")
+{
+    const welcome = () => {
 
-let button = document.querySelector(".js-button");
-let header = document.querySelector(".header__title");
-let newClass = document.querySelector(".header__newClass");
-let theName = document.querySelector(".header__theName");
+        console.log("Hello!")
+        console.log("Miłego dnia;)")
+    }
 
-button.addEventListener("click", () => {
-    header.classList.toggle("header__newClass");
+    const toggleHeaderColor = () => {
+        const header = document.querySelector(".header__title");
+        const theName = document.querySelector(".header__theName");
 
-    theName.innerText = header.classList.contains("header__newClass") ? "biały" : "czerwony";
-})
+        header.classList.toggle("header__newClass");
+        theName.innerText = header.classList.contains("header__newClass") ? "biały" : "czerwony";
+    }
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+
+        button.addEventListener("click", toggleHeaderColor);
+
+        welcome();
+    }
+
+    init();
+}
