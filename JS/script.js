@@ -1,16 +1,15 @@
 {
     const welcome = () => {
-
         console.log("Hello!")
         console.log("Miłego dnia;)")
     }
 
     const toggleHeaderColor = () => {
-        const header = document.querySelector(".header__title");
-        const theName = document.querySelector(".header__theName");
+        const header = document.querySelector(".js-title");
+        const theName = document.querySelector(".js-themeName");
 
-        header.classList.toggle("header__newClass");
-        theName.innerText = header.classList.contains("header__newClass") ? "biały" : "czerwony";
+        header.classList.toggle("js-newClass");
+        theName.innerText = header.classList.contains("js-newClass") ? "biały" : "czerwony";
     }
 
     const init = () => {
